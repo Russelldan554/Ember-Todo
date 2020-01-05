@@ -1,5 +1,11 @@
-{{!-- The following component displays Ember's default welcome message. --}}
-<WelcomePage />
-{{!-- Feel free to remove this! --}}
+<h1>To Do List Application</h1>
+
+{{#link-to "index"}}
+  Home
+{{/link-to}}
+<br>
+{{#link-to "add-todo"}}
+  Add Todo
+{{/link-to}}
 
 {{outlet}}
